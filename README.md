@@ -1,3 +1,7 @@
+## MS Build 2019, Seattle
+
+A talk by @nerdneha and @zeke.
+
 ## Overview
 
 - Intros
@@ -40,8 +44,9 @@
 
 ### GitHub Apps / Marketplace
 
-- marketplace focus is on teams and businessea, be they open source or private
-- write less code, click fewer buttons
+marketplace focus is on teams and businessea, be they open source or private.
+
+write less code, click fewer buttons.
 
 - accesslint
 - [twitter-together](https://github.com/marketplace/actions/twitter-together)
@@ -53,9 +58,16 @@
 - BackHub
 - Semantic Pull Requests
 
+## Probot
+
+- Webhooks (make slide listing all webhooks)
+
 ### Actions
 
-Actions is arbitrary code execution in response to any event (webhook)
+- arbitrary code execution
+- respond to any webhook event
+- run on a schedule
+- Docker
 
 ## Audience participation ideas
 
