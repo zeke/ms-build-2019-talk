@@ -34,6 +34,13 @@ A talk by @nerdneha and @zeke.
   - Zeit Now
   - Azure
 
+## Semantic Release
+
+- SemVer
+- https://www.conventionalcommits.org - A specification for adding human and machine-readable meaning to commit messages
+- https://github.com/semantic-release - Fully automated version management and package publishing
+- https://github.com/conventional-changelog/standard-version - Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+
 ### Shared Ownership
 
 - Write permissions for members
@@ -67,6 +74,7 @@ write less code, click fewer buttons.
 - arbitrary code execution
 - respond to any webhook event
 - run on a schedule
+- Secrets API
 - Docker
 
 ## Audience participation ideas
