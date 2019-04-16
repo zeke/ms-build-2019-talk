@@ -136,6 +136,8 @@ Questions:
 
 Resources:
 
+https://github.com/desktop/desktop/blob/development/docs/process/roadmap.md
+https://github.com/customer-stories/jessfraz
 https://www.firsttimersonly.com/
 http://hood.ie/blog/welcoming-communities.html
 
