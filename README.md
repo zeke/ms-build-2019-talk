@@ -1,3 +1,9 @@
+add slide about all languages (use algolia site for graphics)
+algolia has a free open source plan
+team post: who's going to MS Build?
+
+The MS Build conference is coming up soon. It'll be held in downtown Seattle from May 6-8. @nerdneha and I will be there to give a talk about open source sustainability. We'll be sharing our experiences working on the Desktop and Electron teams, and sharing the tools and practices we use to enable the GitHub Flow on those projects, like GitHub Marketplace, GitHub Apps, Probot, Actions, semantic releases, and more.
+
 ## MS Build 2019, Seattle
 
 A talk by @nerdneha and @zeke.
