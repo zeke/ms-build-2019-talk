@@ -1,3 +1,19 @@
+drop a hint about upcoming permissions improvements at satellite
+create an environment where different types of contributions are valued
+
+1. make the person know you see them
+2. give them feedback that is useful for your project and helps them understand why they should do something differently
+3. when they get the thing merged, when should they expect to see this live in the app
+
+being seen by a bot is not as meaningful as being seen a human
+
+managing burnout - managing a community can be exhausting. have cognizence of that fact and have a process around letting maintainers step down.
+
+
+semantic-release PR screenshot
+
+move your projects to orgs!
+
 add slide about all languages (use algolia site for graphics)
 algolia has a free open source plan
 team post: who's going to MS Build?
@@ -110,6 +126,7 @@ write less code, click fewer buttons.
 - run on a schedule
 - Secrets API
 - Docker
+- explicit: The configuration is right in th repo
 
 ## Audience participation ideas
 
