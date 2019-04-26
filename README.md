@@ -122,6 +122,12 @@ Extra Credit:
 
 ### Removing barriers to contribution (L3 Scale)
 
+CI for Testing, Linting, Etc
+
+- Travis
+- Circle
+- GitHub Actions
+
 - Review apps (for web apps): Open a PR, get a staging instance. No matter who you are.
   - Heroku
   - Zeit Now
