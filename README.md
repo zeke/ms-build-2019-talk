@@ -1,42 +1,17 @@
-drop a hint about upcoming permissions improvements at satellite
+# MS Build 2019, Seattle
 
-create an environment where different types of contributions are valued
-
-1. make the person know you see them
-2. give them feedback that is useful for your project and helps them understand why they should do something differently
-3. when they get the thing merged, when should they expect to see this live in the app
-
-being seen by a bot is not as meaningful as being seen by a human
-
-managing burnout - managing a community can be exhausting. have cognizence of that fact and have a process around letting maintainers step down.
-
-
-semantic-release PR screenshot
-
-be nice!
-
-
-
-add slide about all languages (use algolia site for graphics)
-team post: who's going to MS Build?
-
-The MS Build conference is coming up soon. It'll be held in downtown Seattle from May 6-8. @nerdneha and I will be there to give a talk about open source sustainability. We'll be sharing our experiences working on the Desktop and Electron teams, and sharing the tools and practices we use to enable the GitHub Flow on those projects, like GitHub Marketplace, GitHub Apps, Probot, Actions, semantic releases, and more.
-
-## MS Build 2019, Seattle
-
-A talk by @nerdneha and @zeke.
+A talk by [@nerdneha](https://github.com/nerdneha) and [@zeke](https://github.com/zeke).
 
 ## Overview
 
-- Intros
-
 - Desktop Project (Neha)
 - Electron Project (Zeke)
-- GitHub Flow
+- Close your eyes, part 1 (Neha)
+- GitHub Flow (Zeke)
 - Open Source Basics (Neha)
-- Workflow / Etiquette (Zeke)
+- Workflow (Zeke)
 - Shared Ownership (Neha)
-- GitHub Apps / Marketplace (Zeke)
+- GitHub Apps (Zeke)
 - Useful tools: Probot
 - Upcoming, ex: Actions, Permissions
 - Diversity in OSS and how to do better
@@ -66,13 +41,12 @@ A talk by @nerdneha and @zeke.
 - On the docs team now! (private for now)
 - Personal perspective/goals: be able to disappear
 
-### Audience: What is your story?
+### Audience: What is your story? (Neha)
 
 Close your eyes. Imagine what your team or your project to look like in six months. Imagine the biggest barriers to getting there.
 
 ### GitHub Flow Overview (Zeke)
 
-Ideal case:
 - Happens entirely on GitHub
 - Create a branch
 - Add commits
@@ -81,71 +55,35 @@ Ideal case:
 - Deploy
 - Merge
 
-### Levels (Neha)
+### Open Source Basics (Neha)
 
-L1 - Documentation
-L2 - Communication
-L3 - Scale and Distribution of Responsiblity
-L4 - The singularity: Self-governed, automated, consistent, and stable
-
-### Open Source Basics / Community Checklist (L1 Documentation) (Neha)
-
-Beginner-level ("somewhat contributor friendly")
-
+- Community Checklist
 - README (most important and often overlooked/neglected) - many people will decide whether to use your project based on the README.
 - CoC
 - CONTRIBUTING.md
 - License
-- Issue and PR templates
+- Issue templates and PR templates
 - `good-first-issue` labels: https://www.firsttimersonly.com/
 
-Extra Credit:
- - engineering values
- - template responses
- - product roadmap
- - product priorities
+### Shared Ownership (Zeke)
 
-### Shared Ownership (L2 Communication)
-
-- Write permissions for contributors
-- Avoid fork-based workflow
-- Branch protection for safety
-- CODEOWNERS for safety
+- move your projects to orgs (no individual person owns the project)
+- invite contributors and give them generous permissions
+- Use branch protection for safety
+- Use CODEOWNERS for safety
+- Give credit in the changelogs (VSCode changelog is a good example)
 - all-contributors
 
-- Desktop release notes summarize contributors
-- VSCode changelog is a good example
+### Etiquette and Workflow (Neha)
 
-### Etiquette
-
-- move your projects to orgs!
 - Open issues before PRs (conversation before implementation)
 - Draft PRs (new feature)
+- Add CI (Travis, Circle, Azure Pipelines, GitHub Actions
+- Review apps (for web apps): Open a PR, get a staging instance. No matter who you are. (supported by Heroko, Zeit Now, Netlify, Azure)
 
-### Removing barriers to contribution (L3 Scale)
-
-CI for Testing, Linting, Etc
-
-- Travis
-- Circle
-- GitHub Actions
-
-- Review apps (for web apps): Open a PR, get a staging instance. No matter who you are.
-  - Heroku
-  - Zeit Now
-  - Netlify
-  - Azure
-- Portability: Making your experience reusable for others.
-- 
-
-### GitHub Apps / Marketplace (L3 Scale)
-
-"let's not reinvent the wheel"
-marketplace focus is on teams and businesses, be they open source or private.
+### Marketplace (Neha)
 
 "write less code; click fewer buttons" - @chobberoni
-
-These are tools that have no customization yet; there's nothing wrong with using a tool until you have the headcount/team count to give it a person
 
 - welcome-bot (first issue on repo, first PR on repo, first landed PR on repo) - great starting point until you have the bandwidth for more human touch.
 - accesslint
@@ -155,18 +93,16 @@ These are tools that have no customization yet; there's nothing wrong with using
 - Dependabot
 - Semantic Pull Requests
 
-## Probot
-
+## Roll your own (Zeke)
 - Webhooks - https://github.com/octokit/webhooks.js/blob/master/lib/webhook-names.json
-
-### GitHub Actions
-
-- arbitrary code execution
-- respond to any webhook event
-- run on a schedule
-- Secrets API
-- Docker
-- explicit: The configuration is right in the repo
+- Probot
+- GitHub Actions
+    - arbitrary code execution
+    - respond to any webhook event
+    - run on a schedule
+    - Secrets API
+    - Docker
+    - explicit: The configuration is right in the repo
 
 ### Engaging Users in different ways
 - lead with a thanks / recognize effort
@@ -238,3 +174,28 @@ http://hood.ie/blog/welcoming-communities.html
 - https://www.conventionalcommits.org - A specification for adding human and machine-readable meaning to commit messages
 - https://github.com/semantic-release - Fully automated version management and package publishing
 - https://github.com/conventional-changelog/standard-version - Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+
+drop a hint about upcoming permissions improvements at satellite
+
+create an environment where different types of contributions are valued
+
+1. make the person know you see them
+2. give them feedback that is useful for your project and helps them understand why they should do something differently
+3. when they get the thing merged, when should they expect to see this live in the app
+
+being seen by a bot is not as meaningful as being seen by a human
+
+managing burnout - managing a community can be exhausting. have cognizence of that fact and have a process around letting maintainers step down.
+
+
+semantic-release PR screenshot
+
+be nice!
+
+
+### Levels (Neha)
+
+L1 - Documentation
+L2 - Communication
+L3 - Scale and Distribution of Responsiblity
+L4 - The singularity: Self-governed, automated, consistent, and stable
