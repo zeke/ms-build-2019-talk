@@ -13,7 +13,9 @@ managing burnout - managing a community can be exhausting. have cognizence of th
 
 semantic-release PR screenshot
 
-move your projects to orgs!
+be nice!
+
+
 
 add slide about all languages (use algolia site for graphics)
 team post: who's going to MS Build?
@@ -69,6 +71,7 @@ A talk by @nerdneha and @zeke.
 Close your eyes. Imagine what your team or your project to look like in six months. Imagine the biggest barriers to getting there.
 
 ### GitHub Flow Overview (Zeke)
+
 Ideal case:
 - Happens entirely on GitHub
 - Create a branch
@@ -77,7 +80,6 @@ Ideal case:
 - Discuss and review your code
 - Deploy
 - Merge
-
 
 ### Levels (Neha)
 
@@ -103,22 +105,22 @@ Extra Credit:
  - product roadmap
  - product priorities
 
-### Shared Ownership / Giving Credit (L2 Communication)
+### Shared Ownership (L2 Communication)
 
-- Workflow / Etiquette
-- Open issues before PRs (conversation before implementation)
-- Draft PRs (new feature)
-    - "people know that you see them"
-    - "useful feedback"
-    - "recognition"
-- Write permissions for members
+- Write permissions for contributors
 - Avoid fork-based workflow
 - Branch protection for safety
-- CODEOWNERS
-- Roles: Different ways to contribute
+- CODEOWNERS for safety
+- all-contributors
+
 - Desktop release notes summarize contributors
 - VSCode changelog is a good example
-- all-contributors
+
+### Etiquette
+
+- move your projects to orgs!
+- Open issues before PRs (conversation before implementation)
+- Draft PRs (new feature)
 
 ### Removing barriers to contribution (L3 Scale)
 
@@ -144,7 +146,6 @@ marketplace focus is on teams and businesses, be they open source or private.
 "write less code; click fewer buttons" - @chobberoni
 
 These are tools that have no customization yet; there's nothing wrong with using a tool until you have the headcount/team count to give it a person
-
 
 - welcome-bot (first issue on repo, first PR on repo, first landed PR on repo) - great starting point until you have the bandwidth for more human touch.
 - accesslint
@@ -185,18 +186,15 @@ These are tools that have no customization yet; there's nothing wrong with using
 
 Close your eyes
 
-Think about the next things you wanna check out or do to advance your team on its open source journey.
+Think about the next steps in your open source journery.
+
 - Are you going to reach out to someone new?
 - Are you going to add documentation?
- - Are you thinking about ways to improve your communication with OSS contributors?
- - Are you focusing on the scale?
- - Are you ready to try some new tools to automate your workflows?
+- Are you thinking about ways to improve your communication with OSS contributors?
+- Are you focusing on scaling?
+- Are you ready to try some new tools to automate your workflows?
 
 Now: Take out your phone or your notebook or your steno pad.
-
-
-
-
 
 ## Audience participation ideas
 
@@ -223,13 +221,6 @@ Now: Take out your phone or your notebook or your steno pad.
 - Cumulative list of tools and practices (see youtube video: https://youtu.be/WzghfjjjKvA?t=3064)
 - https://github.com/desktop/desktop/blob/development/docs/process/what-is-desktop.md
 
-Questions:
-
-- Will this be live-streamed? (Yes)
-- Will the video be edited?
-- If you're at home, send a DM to someone
-- Brand me!
-
 Resources:
 
 https://github.com/desktop/desktop/blob/development/docs/process/roadmap.md
@@ -239,7 +230,6 @@ http://hood.ie/blog/welcoming-communities.html
 
 > Use simple language (Hemingway can help). List all professions like “Design”, “Editorial”, “Documentation” instead of saying “Non-Coding”. Use gender-neutral language, prefer “them” and “they” over “him” and “she”. Avoid phrases like “Hey guys”. If you use Slack, you can configure slackbot to suggest alternatives, as we do in our Hoodie Chat. This is your chance to “set a tone” in your community. It helps to limit unfriendly, over-demanding and self-entitled requests from strangers.
 > 
-
 
 
 ## Semantic Release
