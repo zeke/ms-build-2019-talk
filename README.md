@@ -1,24 +1,37 @@
-# MS Build 2019, Seattle
+# Building thriving open source communities with GitHub
 
 A talk by [@nerdneha](https://github.com/nerdneha) and [@zeke](https://github.com/zeke).
+
+MS Build 2019, Seattle
+
+https://mybuild.techcommunity.microsoft.com/sessions/77051
+
+We used this README to prepare an outline for our talk, then made a Google Slides document for the actual talk, the results of which are captured in [slides.pdf](slides.pdf)
+
+---
+
+:point_down: Notes / Talk Outline
 
 ## Overview
 
 - Desktop Project (Neha)
 - Electron Project (Zeke)
 - Close your eyes, part 1 (Neha)
-- GitHub Flow (Zeke)
-- Open Source Basics (Neha)
-- Workflow (Zeke)
-- Shared Ownership (Neha)
-- GitHub Apps (Zeke)
-- Useful tools: Probot
-- Upcoming, ex: Actions, Permissions
-- Diversity in OSS and how to do better
+- Beginning
+    - GitHub Flow (Zeke)
+    - Open Source Basics (Neha)
+- Growing
+    - Shared Ownership (Zeke)
+    - Diversity (Neha)
+- Automating
+    - Marketplace (Neha)
+    - Roll your own (Zeke)
+
+- Close your eyes, part 2 (Neha)
 
 ## Topics
 
-### Desktop (Neha)
+### Desktop Project (Neha)
 
 - I'm Neha. Lowering barriers / Empowering Marginalized / Agile that works 
 - What is Desktop?
@@ -30,22 +43,21 @@ A talk by [@nerdneha](https://github.com/nerdneha) and [@zeke](https://github.co
 - Personal perspective/goals: find the balance between growing the product and growing the community without being reliant on any individuals or scaling our team. i.e. "This will work as long as so-and-so is still around". balancing burnout, progress, and company support
 - Consumer of electron and personal fan
 
-### Electron (Zeke)
+### Electron Project (Zeke)
 
 - I'm Zeke. Open Source / Community Building / Automation / Node.js <3
-
-- I use Desktop! It's not just for newbies.
+- I use Desktop!
 - What is Electron?
 - Apps running on Electron
 - Companies using Electron
 - On the docs team now! (private for now)
 - Personal perspective/goals: be able to disappear
 
-### Audience: What is your story? (Neha)
+### Close your eyes, part 1 (Neha)
 
-Close your eyes. Imagine what your team or your project to look like in six months. Imagine the biggest barriers to getting there.
+Close your eyes. Imagine what your team or your project to look like in six months. Imagine the biggest barriers to getting there. Write it down! 
 
-### GitHub Flow Overview (Zeke)
+### GitHub Flow (Zeke)
 
 - Happens entirely on GitHub
 - Create a branch
@@ -58,12 +70,25 @@ Close your eyes. Imagine what your team or your project to look like in six mont
 ### Open Source Basics (Neha)
 
 - Community Checklist
-- README (most important and often overlooked/neglected) - many people will decide whether to use your project based on the README.
+- README (most important) - many people will decide whether to use your project based on the README. Tell people what the project needs!
 - CoC
-- CONTRIBUTING.md
+- CONTRIBUTING.md - another opportunity to tell people what the project needs.
 - License
 - Issue templates and PR templates
-- `good-first-issue` labels: https://www.firsttimersonly.com/
+- `good-first-issue` labels: https://www.firsttimersonly.com
+- Open issues before PRs (conversation before implementation)
+- Draft PRs (new feature)
+- Pinned issues (beta) to surface priorities
+
+### Beginning Conclusion / Growing Intro
+Your goal is to grow. 
+What is their goal? Why are they interested in your project?
+
+I experience this as a manager all the time. My job is to grow the business and the product but I can't do that effectively until I take an interest in people. 
+
+Our job as an open source repository is to create a construct so that people can grow while we are growing and find that happy medium. 
+
+These tools are about HOW we can do that. 
 
 ### Shared Ownership (Zeke)
 
@@ -71,20 +96,44 @@ Close your eyes. Imagine what your team or your project to look like in six mont
 - invite contributors and give them generous permissions
 - Use branch protection for safety
 - Use CODEOWNERS for safety
-- Give credit in the changelogs (VSCode changelog is a good example)
 - all-contributors
+- Give credit in the changelogs (VSCode changelog is a good example)
+- 
 
-### Etiquette and Workflow (Neha)
+### Diversity and Inclusion (Neha)
 
-- Open issues before PRs (conversation before implementation)
-- Draft PRs (new feature)
-- Add CI (Travis, Circle, Azure Pipelines, GitHub Actions
-- Review apps (for web apps): Open a PR, get a staging instance. No matter who you are. (supported by Heroko, Zeit Now, Netlify, Azure)
+Diversity:
+As your project grows, it gets easier and easier to reinforce the status quo. 
+This is about taking a step back and understanding the composition of your team and how that affects who you're able to attract.
+
+Diversity: experience, ability, background, location, language, cultural upbringing, tenure, age. 
+1. People on the team
+2. Users you interview
+3. Open Source contributions
+
+
+Inclusion:
+If you feed a leaky pipeline, you're gonna get the same thing at the other end. What can you do as a project to be more inclusive?
+ - Enforcing the Code of Conduct
+     - Having a public track record of addressing toxic issues in an empathetic but firm way
+     - Having allies to step in so the emotional labor is distributed
+ - Personal touch
+     - Seeing people respond and be helpful encourages newcomers
+     - Don't assume gender
+     - Ablelist langauge
+     - Attribute credit
+ - Offer mentorship
+     - Ambassadors, pairs
+     - First time contributor badge
+ - Pay / reward
+ - Get Feedback
 
 ### Marketplace (Neha)
 
 "write less code; click fewer buttons" - @chobberoni
 
+- Add CI (Travis, Circle, Azure Pipelines, GitHub Actions
+- Review apps (for web apps): Open a PR, get a staging instance. No matter who you are. (supported by Heroko, Zeit Now, Netlify, Azure)
 - welcome-bot (first issue on repo, first PR on repo, first landed PR on repo) - great starting point until you have the bandwidth for more human touch.
 - accesslint
 - [twitter-together](https://github.com/marketplace/actions/twitter-together)
@@ -105,6 +154,7 @@ Close your eyes. Imagine what your team or your project to look like in six mont
     - explicit: The configuration is right in the repo
 
 ### Engaging Users in different ways
+
 - lead with a thanks / recognize effort
 - "lean into the pain" / "kill with kindness"
 - twitter engagement SOMETIMES NOT ALWAYS
@@ -165,8 +215,6 @@ https://www.firsttimersonly.com/
 http://hood.ie/blog/welcoming-communities.html
 
 > Use simple language (Hemingway can help). List all professions like “Design”, “Editorial”, “Documentation” instead of saying “Non-Coding”. Use gender-neutral language, prefer “them” and “they” over “him” and “she”. Avoid phrases like “Hey guys”. If you use Slack, you can configure slackbot to suggest alternatives, as we do in our Hoodie Chat. This is your chance to “set a tone” in your community. It helps to limit unfriendly, over-demanding and self-entitled requests from strangers.
-> 
-
 
 ## Semantic Release
 
@@ -186,16 +234,3 @@ create an environment where different types of contributions are valued
 being seen by a bot is not as meaningful as being seen by a human
 
 managing burnout - managing a community can be exhausting. have cognizence of that fact and have a process around letting maintainers step down.
-
-
-semantic-release PR screenshot
-
-be nice!
-
-
-### Levels (Neha)
-
-L1 - Documentation
-L2 - Communication
-L3 - Scale and Distribution of Responsiblity
-L4 - The singularity: Self-governed, automated, consistent, and stable
