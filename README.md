@@ -6,7 +6,7 @@ MS Build 2019, Seattle
 
 https://mybuild.techcommunity.microsoft.com/sessions/77051
 
-We used this README to prepare an outline for our talk, then made a Google Slides document for the actual talk, the results of which are captured in [slides.pdf](slides.pdf)
+We used this README to prepare an outline for our talk, then made a [slide deck](https://docs.google.com/presentation/d/1zZ2GYFAWiAYFC_9OqaWqDViVqDKfVijH24C9A6Wkk-Q/edit?usp=sharing) using Google Slides, the results of which are captured in [slides.pdf](slides.pdf)
 
 ---
 
