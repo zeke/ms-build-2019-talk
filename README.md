@@ -4,6 +4,8 @@ A talk by [@nerdneha](https://github.com/nerdneha) and [@zeke](https://github.co
 
 MS Build 2019, Seattle
 
+YouTube video: https://www.youtube.com/watch?v=0IOmzppk-_Y
+
 https://mybuild.techcommunity.microsoft.com/sessions/77051
 
 We used this README to prepare an outline for our talk, then made a [slide deck](https://docs.google.com/presentation/d/1zZ2GYFAWiAYFC_9OqaWqDViVqDKfVijH24C9A6Wkk-Q/edit?usp=sharing) using Google Slides, the results of which are captured in [slides.pdf](slides.pdf)
